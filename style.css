@@ -1,0 +1,556 @@
+/* Switzer-Variable font */
+@font-face {
+    font-family: Switzer-Variable;
+    src: url(assets/fonts/Switzer-Variable.ttf);
+}
+
+/* Switzer-Variable font */
+@font-face {
+    font-family: Boska-Variable;
+    src: url(assets/fonts/Boska-Variable.ttf);
+}
+
+/* Universal CSS */
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+body,
+div,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ul,
+p {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #F9F9F9;
+}
+
+/* Header CSS */
+header {
+    background-color: #1B3936;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 145px;
+}
+
+.nav-left,
+.nav-right {
+    display: flex;
+    gap: 48px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.nav-left a,
+.nav-right a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 400;
+    font-family: Switzer-Variable, sans-serif;
+}
+
+.brand-logo img {
+    width: 168.52px;
+    height: 33px;
+    vertical-align: middle;
+}
+
+/* Hero Section CSS */
+.hero-section {
+    background-color: #1B3936;
+    margin-top: -100px;
+    text-align: center;
+}
+
+/* Welcome Section CSS */
+.welcome-section {
+    background-color: #F9F9F9;
+    padding: 105px;
+    display: flex;
+    position: relative;
+    top: -145px;
+    height: 700px;
+}
+
+.welcome-left {
+    width: 50%;
+}
+
+.welcome-left p {
+    width: 600px;
+    color: #1B3936;
+    font-family: Switzer-Variable, sans-serif;
+    font-size: 24px;
+    line-height: 31.68px;
+    padding-left: 18px;
+    margin-top: 30px;
+}
+
+.welcome-right {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.counter-container {
+    margin-bottom: 100px;
+}
+
+.counter-container h3 {
+    color: #1B3936;
+    font-family: Switzer-Variable, sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 31.68px;
+}
+
+.counter-container:last-child {
+    margin-bottom: 0px;
+}
+
+.counter {
+    display: flex;
+    align-items: end;
+}
+
+.counter h1 {
+    color: #1B3936;
+    font-family: Boska-Variable, sans-serif;
+    font-weight: 700;
+    font-size: 100px;
+    line-height: 130px;
+    margin-top: -26px;
+}
+
+.counter span {
+    color: #1B3936;
+    font-family: Switzer-Variable, sans-serif;
+    font-size: 24px;
+    line-height: 31.68px;
+    padding-left: 16px;
+    margin-bottom: 20px;
+}
+
+
+
+/* Forest Image Section CSS */
+.forest-image-section img {
+    width: 100%;
+}
+
+/* About Section CSS */
+.about-section {
+    width: 100%;
+    background-color: #1B3936;
+    margin-top: -5px;
+    position: relative;
+    height: 1710px;
+}
+
+.about-section .about-image-one {
+    position: absolute;
+    left: 38px;
+    top: 370px;
+}
+
+.about-section .about-image-two {
+    position: absolute;
+    right: 60px;
+    top: 76px;
+}
+
+.about-section .about-image-three {
+    position: absolute;
+    left: 150px;
+    bottom: 170px;
+    padding-bottom: 150px;
+}
+
+.about-section .about-image-four {
+    position: absolute;
+    right: 170px;
+    bottom: 110px;
+    padding-bottom: 150px;
+}
+
+.about-section .title {
+    position: absolute;
+    top: 280px;
+    left: 50%;
+    transform: translateX(-50%);
+    color: #75FF69;
+    font-family: Switzer-Variable, sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 31.68px;
+    text-transform: uppercase;
+}
+
+.about-section .content {
+    width: 1000px;
+    position: absolute;
+    top: 345px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-family: Boska-Variable, sans-serif;
+    font-weight: 400;
+    font-size: 68px;
+    line-height: 88.4px;
+    color: #678784;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+.about-section .content span {
+    color: #fff;
+}
+
+.about-section .intersect {
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+}
+
+/* Cabin Section CSS */
+.cabin-section {
+    padding: 150px 0px;
+}
+
+.cabin-section h1 {
+    width: 884px;
+    margin: 0;
+    margin-bottom: 100px;
+    padding-left: 125px;
+    font-family: Boska-Variable, sans-serif;
+    font-weight: 400;
+    font-size: 68px;
+    line-height: 88.4px;
+    text-transform: capitalize;
+}
+
+.cabin-image-container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 24px;
+    padding: 0 24px;
+}
+
+/* Signup Section CSS */
+.signup-section {
+    background-color: #1B3936;
+    padding: 120px;
+}
+
+.signup-section .main-content {
+    background-image: url("assets/images/BG.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 200px 0;
+}
+
+.signup-section .main-content .title {
+    width: 600px;
+    color: #fff;
+    font-family: Boska-Variable, sans-serif;
+    font-weight: 400;
+    font-size: 68px;
+    line-height: 88.4px;
+    text-transform: capitalize;
+    text-align: center;
+}
+
+.signup-section .main-content span {
+    color: #75FF69;
+}
+
+.signup-section .main-content .subtitle {
+    width: 400px;
+    color: #fff;
+    font-family: Switzer-Variable, sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 23.76px;
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 60px;
+}
+
+.signup-section .main-content input {
+    width: 400px;
+    padding: 12px 16px;
+    font-family: Switzer-Variable, sans-serif;
+    font-size: 18px;
+    line-height: 23.76px;
+    border: none;
+    outline: none;
+}       
+/* for mozilla firefox */
+@-moz-document url-prefix() {
+    .signup-section .main-content input {
+        width: 400px;
+        padding: 3.7px 16px 3.7px 16px;
+        font-family: Switzer-Variable, sans-serif;
+        font-size: 18px;
+        line-height: 23.76px;
+        border: none;
+        outline: none;
+    }
+}
+
+.signup-section .main-content button {
+    background-color: #75FF69;
+    font-family: Switzer-Variable, sans-serif;
+    font-size: 18px;
+    line-height: 23.76px;
+    border: none;
+    padding: 12px 24px;
+    margin-left: -5px;
+}
+
+.signup-section .main-content button:hover {
+    cursor: pointer;
+}
+
+/* Testimonial Section CSS */
+.testimonial-section {
+    padding: 70px 0;
+}
+
+.testimonial-section .title-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+    padding: 0 140px;
+}
+
+.testimonial-section .title-container .title {
+    width: 750px;
+    color: #1B3936;
+    font-family: Boska-Variable, sans-serif;
+    font-size: 68px;
+    line-height: 88.4px;
+    font-weight: 400;
+}
+
+.testimonial-section .title-container .subtitle {
+    width: 379px;
+    color: #1B3936;
+    font-family: Switzer-Variable, sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 23.76px;
+}
+
+.testimonial-section .image-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 200px;
+    padding-bottom: 100px;
+    padding-left: 140px;
+}
+
+.testimonial-section .image-container .image-one,
+.image-two,
+.image-three {
+    position: relative;
+}
+
+.testimonial-section .image-container .peaceful-msg {
+    background-color: #fff;
+    position: absolute;
+    left: -93px;
+    bottom: 14px;
+    padding: 24px;
+    width: 420px;
+}
+
+.testimonial-section .image-container .peaceful-msg h3 {
+    color: #1B3936;
+    font-family: Switzer-Variable, sans-serif;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 29.04px;
+    margin-top: 5px;
+}
+
+.testimonial-section .image-container .peaceful-msg p {
+    color: #1B3936;
+    font-family: Switzer-Variable, sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21.12px;
+    margin-top: 5px;
+    opacity: 60%;
+}
+
+.testimonial-section .image-container .peaceful-msg span {
+    opacity: 30%;
+}
+
+.testimonial-section .icon-container {
+    text-align: center;
+}
+
+.testimonial-section .icon-container .icon-left img {
+    background-color: #1B3936;
+    padding: 20px;
+    border-radius: 50px;
+    margin-right: 24px;
+}
+
+.testimonial-section .icon-container .icon-right img {
+    background-color: #75FF69;
+    padding: 20px;
+    border-radius: 50px;
+}
+
+/* Footer CSS */
+footer .top-container {
+    background-color: #fff;
+    padding: 100px 184px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer .top-container .top-left h1 {
+    font-family: Boska-Variable, sans-serif;
+    font-weight: 400;
+    font-size: 68px;
+    line-height: 88.4px;
+    color: #1B3936;
+    width: 710px;
+    text-transform: capitalize;
+}
+
+footer .top-container .top-left p {
+    font-family: Switzer-Variable, sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 23.76px;
+    color: #1B3936;
+    margin-top: 10px;
+}
+
+footer .top-container .top-left a {
+    font-family: Switzer-Variable, sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 23.76px;
+    color: #1B3936;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 70px;
+    border: 1px solid #1B3936;
+    border-radius: 50%;
+    padding: 16px 60px;
+}
+
+footer .about-container {
+    display: flex;
+}
+
+footer .about-left {
+    background-color: #75FF69;
+    flex-grow: 1;
+    padding-left: 124px;
+    padding-top: 124px;
+}
+
+footer .about-left h2 {
+    font-family: Boska-Variable, sans-serif;
+    font-weight: 400;
+    font-size: 68px;
+    line-height: 88.4px;
+    color: #1B3936;
+}
+
+footer .about-left p {
+    font-family: Switzer-Variable, sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21.12px;
+    color: #1B3936;
+}
+
+footer .about-left .icon {
+    text-align: end;
+    margin-top: 30px;
+    margin-right: 40px;
+    margin-bottom: 30px;
+}
+
+footer .about-right {
+    background-color: #1B3936;
+    flex-grow: 3;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 150px;
+    padding-right: 150px;
+    padding-top: 120px;
+}
+
+footer .about-right .content-container h6 {
+    font-family: Switzer-Variable, sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21.12px;
+    color: #fff;
+}
+
+footer .about-right .content-container h2 {
+    font-family: Boska-Variable, sans-serif;
+    font-weight: 400;
+    font-size: 68px;
+    line-height: 88.4px;
+    color: #fff;
+    margin-right: 20px;
+}
+
+footer .about-right .content {
+    display: flex;
+    align-items: end;
+}
+
+footer .link-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 48px;
+    list-style: none;
+    padding: 20px 0;
+}
+
+footer .link-container a {
+    font-family: Switzer-Variable, sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 23.76px;
+    color: #1B3936;
+    text-decoration: none;
+}
